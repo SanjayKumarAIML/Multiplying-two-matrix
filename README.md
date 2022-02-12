@@ -19,9 +19,9 @@ Use for loop to append the values into the list created.
 Print the product of two arrays.
 ## PROGRAM: 
 ```
-To write a python program for multiplying two matrix.
-Developed by: S.S.Sanjay Kumar
-Register no: 21005845
+#To write a python program for multiplying two matrix.
+#Developed by: S.S.Sanjay Kumar
+#Register Number: 21005845
 
 import numpy as np
 n=int(input())
