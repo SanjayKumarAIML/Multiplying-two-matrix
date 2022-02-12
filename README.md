@@ -25,14 +25,16 @@ Print the product of two arrays.
 
 import numpy as np
 n=int(input())
-l1,l2=[],[]
+l1=[]
+l2=[]
 for i in range(n):
     l1.append(int(input()))
 for i in range(n):
     l2.append(int(input()))
 A=np.array(l1)
 B=np.array(l2)
-print("Product of two arrays is:",A*B)
+X=A*B
+print('Product of two arrays is:',X)
 
 ```
 ## OUTPUT:
